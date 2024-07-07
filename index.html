@@ -15,10 +15,8 @@
     </header>
 
     <main class="main-container">
-        <section class="container-input">
-
-            <div class="container-Text">
-
+        <section class="container-inputText">
+            
                 <textarea class="input" id="input--texto" placeholder="Digite seu texto"></textarea>
 
                 <div class="container--bnt">
@@ -32,23 +30,24 @@
                         <button onclick="descriptografar()" class="bnt--descriptografar">Descriptografar</button>
                     </div>
                 </div>
+                
+        </section>
 
-            </div>
-
-            <div id="output">
-                <div id="output--text">
+        <section id="output" class="container-outputText">
+            
+                <div id="output--text" class="container-outputText-outputImg">
                     <img src="imagem/High quality products 1 1.png" alt="imagem de buscar">
-                    <h2>Nenhuma mensagem encontrada</h2>
-                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    <div id="output--text--legenda" class="container-outputText-outputImg-legenda">
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
                 </div>
                 <div id="buttonCopiar">
                     <button id="btnCopiar" onclick="copiar()" class="bnt--copiar" hidden>Copiar</button>
                 </div>
+                
 
-            </div>
         </section>
-
-
     </main>
 
     <script src="interacao\script.js"></script>

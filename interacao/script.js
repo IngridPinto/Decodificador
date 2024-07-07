@@ -10,6 +10,7 @@ function criptografar() {
     document.getElementById('output--text').innerHTML = '<textarea readonly id="input--texto2" class="outputText" >' + resultCripto + '</textarea>';
 
     document.getElementById('btnCopiar').removeAttribute('hidden');
+    
 }
 
 function descriptografar() {
@@ -28,3 +29,7 @@ function copiar() {
     document.execCommand('copy');
 
 }
+
+
+
+
